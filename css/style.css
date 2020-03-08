@@ -41,12 +41,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 60vh;
+    overflow: hidden;
 }
 
 .main-content {
     /* margin-top: 6rem; */
     flex: 1;
-    padding: 3.5rem 0;
+    padding: 3.2rem 0;
 }
 
 .form-container {
@@ -137,11 +138,22 @@ ul li {
 
 .top-nav li {
     padding: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.app-icon {
+    width: 25px;
+    text-align: center;
 }
 
 .top-nav a {
     text-decoration: none;
     color: #333333;
+    font-size: 14px;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
 }
 
 .language-container {
